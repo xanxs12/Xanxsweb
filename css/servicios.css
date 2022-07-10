@@ -1,0 +1,41 @@
+/* https://color.adobe.com/es/trends */
+:root {
+    /* declaracion de variables para colores */
+    --color1: #D9D4C5;
+    --color2: #A6A197;
+    --color3: #736F68;
+    --color4: #403E3A;
+    --color5: #0D0D0D;
+    --color6: #FCF7F4;
+    --color:  #B88768;
+    --color6-negro:#000000;
+    --color6-blanco:#ffffff;
+    --color6-gris-claro:#999999;
+    --color6-gris-oscuro:#454545;
+}
+
+#servicios-cabecera {
+    background-color: var(--color4);
+    padding: 45px 0px;
+}
+
+#servicios-cabecera h1 {
+    background-color: var(--color4);
+}
+
+#servicios {
+    background-color: var(--color1  );
+    color: var(--color5);
+}
+
+#servicios ul {
+    margin-left: 40px;
+    list-style-type: square;
+}
+
+.video-responsive {
+    aspect-ratio: 16/9;
+    width: 100%;
+    height: auto;
+    background-color: var(--color6-negro);
+}

@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- necesaria para que trabaje responsive web -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- titulo de la pestaña del navegador -->
+    <title>La casa del arte narrativo</title>
+
+    <!-- enlazar con la hoja de estilos externa general -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- enlazar a la libreria de iconos de font-awesome 6.1.1 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- enlazar con el archivo javascript para el boton ''scroll-arriba''' -->
+    <script src="js/boton-arriba.js"></script>
+
+    <!-- enlazar con el archivo favicon -->
+    <link rel="shortcut icon" href="imagenes/favicon.png" type="image/x-icon">
+
+</head>
+<body> 
+    <!-- area de menu superior -->
+    <nav id="menu-superior">
+        <div class="contenedor">
+            <div class="fila">
+                <!-- unorder list -->
+                <ul class="menu-barra">
+                    <li><a title="Ventas realizadas este año" href="#">Ventas</a></li>
+                    <li><a title="Historia de Xanxs" href="#">Historia</a></li>
+                    <li><a title="Servicios" href="servicios.html">Servicios</a></li>
+                    <li><a title="Conoce más sobre nuestro equipo"  href="#">Equipo</a></li>
+                    <li><a title="contactate con nosotros" href="contactanos.html">Contactanos</a></li>
+                </ul> <!-- menu barra -->
+                
+                <ul class="menu-barra">
+                    <li>
+                        <!-- enlace con destino ''tel''' -->
+                        <a title="Llámanos" href="tel:51989454311" target="_blank">
+                            <i class="fa-solid fa-phone-flip fa-fw"></i> +51 989-454-311                       
+                        </a>
+                    </li>
+                        <!-- enlace con destino ''mailto''' -->
+                    <li>
+                        <a title="Escribenos por correo" href="mailto:contacto@xanxs.pe?subject=Quiero información sobre las ofertas">
+                            <i class="fa-solid fa-envelope fa-fw"></i> contacto@xanxs.pe
+                        </a>
+                    </li>
+                        <!-- enlace con destino ''whatssap''' -->  
+                    <li>
+                        <a title="Escribenos al Whatsapp" href="https://wa.me/51914733376?text=Quiero información sobre las ofertas">
+                            <i class="fa-brands fa-whatsapp fa-fw"></i> +51 914-733-376
+                        </a>
+                    </li>
+                </ul>
+                </ul> <!-- menu barra -->
+
+                <ul class="menu-barra">
+                    <li>
+                        <a title="Facebook" target="_blank" href="https://fontawesome.com/icons/facebook-square?s=brands">
+                            <i class="fa-brands fa-facebook-square"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a title="Instagram" target="_blank" href="https://fontawesome.com/icons/instagram-square?s=brands">
+                            <i class="fa-brands fa-instagram-square"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a title="Youtube" target="_blank" href="https://fontawesome.com/icons/youtube?s=brands">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </li>              
+                </ul><!-- fila -->
+            </div> <!-- fila -->
+        </div> <!-- contenedor -->
+    </nav> <!-- menu superior -->
+
+
+
+    <!-- Area de cabecera -->
+    <header id="cabecera" class="cabecera-sticky">
+        <div class="contenedor">
+            <div class="fila">
+                <figure class="logo">
+                    <a href="index.html" title="Inicio">
+                        <img src="imagenes/logo-xanxs.png" class="img-ajustar">
+                    </a>
+                </figure> <!-- logo -->
+
+                <nav id="menu-principal">
+                    <!-- lista de viñetas -->
+                    <ul class="menu-barra">
+                        <li><a title="Inicio" href="index.html">Inicio</a></li>  
+                        <li><a title="Quiénes somos" href="index.html#nosotros">Nosotros</a></li>
+                        <li><a title="Noticias sobre Xanxs" href="index.html#noticias">Noticias</a></li>  
+                        <li><a title="Elige tu tienda mas cercana" href="index.html#elecciones">Elecciones</a></li>  
+                        <li><a title="Conoce mas sobre nuestros campus" href="index.html#campus">Campus</a></li>  
+                        <li><a title="Nuestro equipo" href="index.html#equipo">Equipo</a></li>  
+                        <li><a title="Nuestros inicios" href="index.html#historia">Historia</a></li> 
+                    </ul>  <!-- menu-barra -->
+                </nav> <!-- menu-principal -->
+            </div><!-- fila -->
+        </div> <!-- contenedor -->
+    </header> <!-- cabecera -->
+
+    <!-- area del banner -->
+    <figure id="banner-contenedor">
+        <img src="imagenes/banner.jpg" class="img-ajustar" alt="">
+        <figcaption id="banner-descripcion">
+            <h3>Semama de Descuentos</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id temporibus iusto reiciendis. Aspernatur deserunt maxime fuga recusandae architecto ad dolorem modi quos, reprehenderit, nobis, quis asperiores numquam eos harum sint!</p>
+            <a href="#" class="enlace-boton">Más información</a>
+        </figcaption>
+    </figure>  <!-- banner -->
+
+    <!-- Area de nosotros -->
+    <section id="nosotros" class="espaciado">
+        <article class="contenedor">
+            <h2>nosotros</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur
+                <a href="#">adipisicing</a>
+                 elit. Magni neque asperiores eum expedita quidem sapiente quae nisi officiis. Praesentium possimus mollitia iste ducimus reiciendis error nostrum quasi doloremque facilis quisquam eos molestiae, fugiat repellat vitae laudantium dicta! Quaerat ex iure sit blanditiis. Itaque vero aliquam autem qui quia, numquam, maiores mollitia laborum sequi tempore temporibus nisi laudantium ipsum architecto laboriosam labore. Reiciendis dolores nostrum mollitia corporis aperiam voluptatibus quas iure atque, vitae ratione obcaecati, similique quam illum eaque eos blanditiis culpa. Eaque, cum. Iusto ad suscipit possimus, soluta earum corrupti, sequi officiis iste expedita enim, asperiores nihil itaque nostrum perspiciatis? Nostrum excepturi quibusdam at deleniti veritatis voluptas dolorem explicabo velit expedita incidunt, accusamus dolorum pariatur aspernatur quis suscipit ut voluptate, sint, doloribus voluptatum similique repudiandae officia recusandae dolore! Veniam, nisi! A dolorum facere, qui molestiae at reiciendis dolore maxime eius vero ipsum quo sed vitae laborum quaerat fugit neque nesciunt?</p>
+            </article> <!-- contenedor -->
+    </section> <!-- nosotros -->
+
+    <!-- Area de Ofertas -->
+    <aside id="ofertas" class="espaciado">
+        <div class="contenedor">
+            <p class="texto-enorme"> <span class="texto-resaltado">XanxsOfertas</span> 2022<br>Ofertas de viviendas<br>A todos los costos porislbes<br>Solo hasta el 30 de Junio <span class="texto-resaltado">Te esperamos.</span></p>
+        </div><!-- contenedor -->
+    </aside> <!-- Ofertas -->
+
+    <!-- area que ofrece -->
+    <section id="ofrece" class="espaciado">
+        <div class="contenedor">
+            <h2>Ofrecemos</h2>
+            <div class="fila">   <!--activa flexbox -->
+                <div class="columna borde-derecho">
+                    <h3>Aquitectura & Interior</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente tempora suscipit architecto aliquam, quibusdam exercitationem, eaque laborum dolorum praesentium delectus velit voluptates nemo consequatur labore. Laudantium reiciendis adipisci vero repudiandae.</p>
+                    <p>Maiores, odio. Magni eligendi iste, iure ipsam sed omnis porro doloremque eveniet cupiditate culpa tempora aliquid deleniti praesentium velit atque! Amet magnam exercitationem saepe nam delectus, dolores adipisci explicabo ratione.</p>
+                </div> <!-- columna -->   
+                
+                <div class="columna borde-derecho">
+                    <h3>Projecto Planificado</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sed, in assumenda iure earum unde obcaecati libero corporis autem illo. Facere quod aliquam neque officiis ut repellendus culpa aspernatur rerum!</p>
+                    <p>Sunt necessitatibus, excepturi nam dolore nihil ipsam, dolorum beatae consectetur alias cumque quia! Reiciendis eveniet laudantium quas minus similique optio ea eius modi, veniam accusantium, laborum ab minima cumque ut!</p>
+                </div> <!-- columna -->   
+                
+                <div class="columna borde-derecho">
+                    <h3>Diseño de producto</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed repudiandae ex, autem dolor recusandae minima harum blanditiis quod, ad suscipit at quae. Saepe ullam quasi vero tenetur quaerat nam neque!</p>
+                    <p>Saepe, consequuntur. Explicabo, dolorem! Vitae, earum dignissimos, quod aut adipisci hic repellendus culpa eius officiis non, eveniet maiores! A veritatis doloremque ducimus reprehenderit aliquid, asperiores dolor voluptatibus mollitia ut porro.</p>
+                </div> <!-- columna -->   
+                
+                <div class="columna">
+                    <h3>Soluciones personalizadas</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed repudiandae ex, autem dolor recusandae minima harum blanditiis quod, ad suscipit at quae. Saepe ullam quasi vero tenetur quaerat nam neque!</p>
+                    <p>Saepe, consequuntur. Explicabo, dolorem! Vitae, earum dignissimos, quod aut adipisci hic repellendus culpa eius officiis non, eveniet maiores! A veritatis doloremque ducimus reprehenderit aliquid, asperiores dolor voluptatibus mollitia ut porro.</p>
+                </div> <!-- columna -->   
+            </div>  <!-- fila -->           
+        </div>  <!-- contenedor -->    
+    </section>  <!-- ofrece -->
+
+    <!-- area de conseguir un diseño -->
+    <aside id="diseño" class="espaciado">
+        <div class="contenedor">
+            <p class="texto-enorme">
+                <span class="texto-resaltado">¡Consigue</span>  <br> un diseño interior <br> increíble  <span class="texto-resaltado">ahora mismo!</span></p>
+        </div><!-- contenedor -->
+    </aside> <!-- diseño -->
+
+
+    <!-- elecciones de Xanxs -->
+    <section id="elecciones" class="espaciado">
+        <div class="contenedor">
+            <h2>Elecciones</h2>
+            <div class="fila">   <!--activa flexbox -->
+                <div class="columna">
+                    <i class="fa-solid fa-archway fa-fw"></i>
+                    <h3>Company</h3>
+                </div> <!-- columna -->         
+                <div class="columna">
+                    <i class="fa-solid fa-hotel fa-fw"></i>
+                    <h3>Cityscape</h3>
+                </div> <!-- columna -->
+                <div class="columna">
+                    <i class="fa-solid fa-monument fa-fw"></i>
+                    <h3>Real estate</h3>
+                </div> <!-- columna -->
+                <div class="columna">
+                    <i class="fa-solid fa-mountain-city fa-fw"></i>
+                    <h3>Trustesta</h3>
+                </div> <!-- columna -->
+                <div class="columna">
+                    <i class="fa-solid fa-tree-city fa-fw"></i>
+                    <h3>Real estate</h3>
+                </div> <!-- columna -->
+                <div class="columna">
+                    <i class="fa-solid fa-door-open fa-fw"></i>
+                    <h3>Real estate</h3>
+                </div> <!-- columna -->
+            </div>  <!-- fila -->           
+        </div>  <!-- contenedor -->    
+    </section>  <!-- elecciones -->
+
+<!-- bienvenida de Xanxs -->
+<article id="bienvenida" class="espaciado">
+    <div class="contenedor">
+        <div class="fila">   <!--activa flexbox -->
+            <div class="columna alinear-vertical">
+                <h2>Bienvenido a Xanxs Arquitectura e Interiorismo</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio aperiam nihil nostrum laboriosam? Eos nulla dolor perspiciatis dolorem ad earum officiis assumenda deserunt, accusantium ut sed! Ratione nulla alias eaque ipsa tempora dicta dignissimos, fugiat laboriosam laudantium exercitationem, perspiciatis eligendi esse obcaecati voluptatum voluptatibus a? Consectetur adipisci magnam nostrum beatae, voluptate deserunt quas excepturi nihil tempore atque suscipit, odit minus ullam unde. Voluptatibus, nam molestias neque labore aperiam saepe rerum?</p>
+            </div> <!-- columna -->         
+            <div id="bienvenida-contenedor" class="columna-50">
+                <img src="imagenes/bienvenido.jpg" class="img-ajustar" alt="Bienvenido a Xanxs">
+                <div id="bienvenida-descripcion" class="alinear-vertical">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit harum voluptate consequatur quam animi, quos adipisci assumenda esse accusamus laborum sunt quis pariatur repellat voluptatem eveniet iure fuga, earum vitae?</p>
+                </div>
+            </div> <!-- columna -->
+        </div>  <!-- fila -->           
+    </div>  <!-- contenedor -->    
+</article>  <!-- bienvenida -->
+
+<!-- campus de Xanxs -->
+<article id="campus" class="espaciado">
+    <figure class="contenedor">
+        <div class="fila">   <!--activa flexbox -->
+            <div class="columna alinear-vertical">
+                <h2>Campus en New York</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, amet nesciunt eveniet vitae veritatis quos nemo qui optio sapiente pariatur unde perferendis nihil repellendus voluptatibus in maxime. Voluptatum error animi id exercitationem neque minima, maiores eum pariatur atque deleniti illum alias odit inventore in magni fugiat veniam velit numquam provident at sunt autem soluta. Fugiat beatae ullam perferendis autem maxime, maiores impedit ipsa vel vero repellendus at distinctio quam deserunt sit voluptate sed, natus, doloremque nulla. Harum minima fugiat est, dicta fuga facere ducimus iusto dignissimos voluptates qui amet officiis perferendis. Nihil laboriosam quas impedit. Nulla, ratione! Natus, soluta totam.</p>
+            </div> <!-- columna --> 
+            <div id="campus-contenedor" class="columna-50">
+                <img src="imagenes/New York.jpg" class="img-ajustar" alt="Bienvenido a Xanxs">
+                <div id="campus-descripcion" class="alinear-vertical">   
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit harum voluptate consequatur quam animi, quos adipisci assumenda esse accusamus laborum sunt quis pariatur repellat voluptatem eveniet iure fuga, earum vitae?</p>
+            </div> <!-- columna -->
+        </div>  <!-- fila -->           
+    </figure>  <!-- contenedor -->    
+</article>  <!-- campus -->
+
+<!-- convenio de Xanxs -->
+<article id="convenio" class="espaciado">
+    <figure class="contenedor">
+        <div class="fila">   <!--activa flexbox -->
+            <div class="columna alinear-vertical">
+                <h2>Contamos con Convenios</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, amet nesciunt eveniet vitae veritatis quos nemo qui optio sapiente pariatur unde perferendis nihil repellendus voluptatibus in maxime. Voluptatum error animi id exercitationem neque minima, maiores eum pariatur atque deleniti illum alias odit inventore in magni fugiat veniam velit numquam provident at sunt autem soluta. Fugiat beatae ullam perferendis autem maxime, maiores impedit ipsa vel vero repellendus at distinctio quam deserunt sit voluptate sed, natus, doloremque nulla. Harum minima fugiat est, dicta fuga facere ducimus iusto dignissimos voluptates qui amet officiis perferendis. Nihil laboriosam quas impedit. Nulla, ratione! Natus, soluta totam.</p>
+            </div> <!-- columna --> 
+            <div id="convenio-contenedor" class="columna-50">
+                <img src="imagenes/las vegas.jpg" class="img-ajustar" alt="Bienvenido a Xanxs">
+                <div id="convenio-descripcion" class="alinear-vertical">   
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit harum voluptate consequatur quam animi, quos adipisci assumenda esse accusamus laborum sunt quis pariatur repellat voluptatem eveniet iure fuga, earum vitae?</p>
+            </div> <!-- columna -->
+        </div>  <!-- fila -->           
+    </figure>  <!-- contenedor -->    
+</article>  <!-- convenio -->
+
+ <!-- area de Últimas noticias -->
+<section id="noticias" class="espaciado">
+    <figure class="contenedor">
+        <h2>Últimas Noticias</h2>
+        <div class="fila">
+            <article class="columna">
+                <figure class="noticias-foto">
+                    <img src="imagenes/nordic.jpg" class="img-ajustar" alt="">
+                </figure>                
+                <h3>Estilo nórdico, estilo interior para una vida sencilla.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nisi impedit at quisquam voluptatem veniam consequuntur aperiam culpa, sint magni modi, nostrum minus sequi ex est.</p>
+            </article><!--columna -->
+            <article class="columna">
+                <figure class="noticias-foto">
+                    <img src="imagenes/frances.jpg" class="img-ajustar" alt="">
+                </figure>
+                <h3>Estilo frances, estilo interior para una vida lujosa.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt rem quo, autem incidunt ut eius! Maiores recusandae impedit veniam quaerat est.</p>
+            </article><!--columna -->
+            <article class="columna">
+                <figure  class="noticias-foto">
+                    <img src="imagenes/español.jpg" class="img-ajustar" alt="">
+                </figure>
+                <h3>Estilo español, estilo interior para una vida social.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi a repellendus molestias natus corrupti. Corrupti tenetur fugiat laboriosam sunt earum tempore consectetur adipisci beatae.</p>
+            </article><!--columna -->
+            <article class="columna">
+                <figure class="noticias-foto">
+                    <img src="imagenes/chino.jpg" class="img-ajustar" alt="">
+                </figure>   
+                <h3>Estilo EstadoUnidense, estilo interior para una vida de Exito.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi a repellendus molestias natus corrupti. Corrupti tenetur fugiat laboriosam sunt earum tempore consectetur adipisci beatae.</p>
+            </article> <!--columna -->
+            <article class="columna">
+                <figure class="noticias-foto">
+                    <img src="imagenes/paris.jpg" class="img-ajustar" alt="">
+                </figure>
+                <h3>Estilo Mandarin, estilo interior para una vida lujosa.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi a repellendus molestias natus corrupti. Corrupti tenetur fugiat laboriosam sunt earum tempore consectetur adipisci beatae.</p>
+            </article> <!--columna -->
+        </div> <!--fila -->
+    </figure> <!--contenedor -->
+</section> <!--noticias -->
+
+ <!-- area de Trabajos destacados -->
+ <aside id="trabajos">
+    <div class="contenedor">
+        <div class="fila">
+            <figure id="trabajos-columna" class="columna-66 mover-columna-arriba" >
+                <img src="imagenes/trabajo.jpg" class="img-ajustar" alt=""> 
+                <figcaption id="trabajos-descripcion">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit temporibus eligendi neque, sunt atque provident!</p>
+                </figcaption>
+            </figure><!--columna -->
+            <article class="columna alinear-vertical">
+                <h2>Trabajos Destacados</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae neque hic facilis iusto soluta perferendis eaque, dolor aliquam libero adipisci, optio minima sit itaque velit quasi harum ea ipsum distinctio, maiores cupiditate? Enim, debitis sed.</p>
+                <a class="enlace-boton" href="#">Más información</a>
+            </article><!--columna -->
+        </div> <!--fila -->
+    </div> <!--contenedor -->
+</aside> <!--trabajos -->
+
+<!-- Area de Nuestro equipo -->
+<section id="equipo" class="espaciado">
+    <div class="contenedor">
+        <h2>Nuestro Equipo</h2>
+        <div class="fila">
+            <article class="columna">
+                <img src="imagenes/empresario1.jpg" class="img-ajustar" alt="">
+                <h3>Andres Saens</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, tenetur.</p>
+            </article>
+            <article class="columna">
+                <img src="imagenes/empresario3.jpg" class="img-ajustar" alt="">
+                <h3>Rubí Pardo</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, tenetur.</p>
+            </article>
+            <article class="columna">
+                <img src="imagenes/empresario2.jpg" class="img-ajustar" alt="">
+                <h3>Andres Clop</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, tenetur.</p>
+            </article>
+            <article class="columna">
+                <img src="imagenes/empresario4.jpg" class="img-ajustar" alt="">
+                <h3>Melissa Muñoz</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, tenetur.</p>
+            </article>
+        </div> <!--fila -->
+    </div> <!--contenedor -->
+</section> <!--equipo -->
+    <!-- Area de historia -->
+    <article id="historia" class="espaciado">
+        <div class="contenedor">
+            <h2>Historia de las Sedes</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi commodi illum consectetur provident totam aperiam ullam perspiciatis, consequuntur eum consequatur cupiditate saepe dignissimos molestiae autem voluptates laboriosam ab corrupti libero tempore velit. Excepturi, cum a illum tenetur quos accusantium ut fugiat, dolorum beatae quia, magnam quasi aliquam officiis voluptates eum delectus doloribus consectetur? Distinctio doloribus delectus dolorem quasi nostrum, assumenda asperiores maxime perferendis sequi magnam ipsum atque pariatur accusamus ipsa recusandae deserunt commodi, consequatur officiis ullam, quia a? Illo accusamus temporibus itaque in laborum sapiente nobis, quo facilis aut, ratione eveniet ullam tenetur officia nulla consequatur deleniti mollitia, cum labore vitae adipisci? Praesentium assumenda repellat consectetur nulla temporibus cupiditate dolores itaque eveniet. Tenetur tempore soluta sint nesciunt aspernatur velit asperiores molestias magnam quibusdam deleniti? Quas, ut, deserunt voluptatem, reprehenderit accusamus deleniti dolore nihil repellendus provident obcaecati voluptas aliquid. Quam, distinctio? Esse accusantium quidem nobis natus? Quis rem nobis aliquid molestiae.</p>
+        </div>  <!-- contenedor -->
+    </article>  <!-- historia -->
+
+    <!-- Area de pie de pagina -->
+    <footer id="pie">
+        <div class="contenedor">
+            <div class="fila">
+                <div class="columna alinear-vertical">
+                    <p>&copy;2022 Xanxs. Derechos Reservados.</p>   
+                </div>
+                <div class="columna">
+                    <p>Siguenos en:</p>
+                    <!-- target='blank' abre la pagina en una nueva pestaña del navegador -->
+                    <a title="Facebook" target="_blank" href="https://fontawesome.com/icons/facebook-square?s=brands">
+                        <i class="fa-brands fa-facebook-square fa-fw"></i>
+                    </a>
+
+                    <a title="Instagram" target="_blank" href="https://fontawesome.com/icons/instagram-square?s=brands">
+                        <i class="fa-brands fa-instagram-square fa-fw"></i>
+                    </a>
+
+                    <a title="Youtube" target="_blank" href="https://fontawesome.com/icons/youtube?s=brands">
+                        <i class="fa-brands fa-youtube fa-fw"></i>
+                    </a>
+
+                </div>
+
+            </div>
+        </div> <!-- contenedor -->
+    </footer> <!-- pie -->
+
+    <!-- crear el boton 'scroll-arriba' -->
+    <a href="#" id="scroll-arriba">
+        <i class="fa-solid fa-angle-up"></i>
+    </a>
+</body>
+</html>
